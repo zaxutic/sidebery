@@ -86,7 +86,7 @@
 
 /*context menu*/
 #root[data-style="auto"] {
-  --ctx-menu-bg: var(--ctp-surface0);
+  --ctx-menu-bg: var(--ctp-mantle);
   --ctx-menu-bg-hover: var(--ctp-base);
   --ctx-menu-warn-bg-hover: var(--ctp-maroon);
   --ctx-menu-fg: var(--ctp-text);
@@ -153,4 +153,8 @@
 
 .Tab .ctx {
   right: -0.5rem;
+}
+
+.CtxMenu .opt {
+  padding: 0.25rem 1rem;
 }
