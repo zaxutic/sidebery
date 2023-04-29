@@ -27,32 +27,6 @@
   --ctp-crust: #11111b;
 }
 
-.Tab {
-  background: transparent !important;
-  padding: 1px 0;
-  height: 32px;
-}
-
-.Tab .lvl-wrapper {
-  margin: 0 0.5rem;
-  border-radius: 0.25rem;
-  min-width: 0px;
-  border: solid transparent;
-  border-width: 0 1px;
-}
-
-.Tab:hover .fav {
-  opacity: 1;
-}
-
-.Tab:hover .lvl-wrapper {
-  background: var(--tabs-bg-hover);
-}
-.Tab[data-active] .lvl-wrapper {
-  background: var(--tabs-bg-active);
-  border-color: var(--ctp-overlay0);
-}
-
 /*tab close button*/
 .Tab .close > svg {
   fill: var(--ctp-maroon);
@@ -66,9 +40,6 @@
 #root[data-style="auto"] {
   --container-fg: var(--ctp-text);
   --active-container-fg: var(--ctp-text);
-}
-.Tab .ctx {
-  right: -0.5rem;
 }
 
 /*bookmarks*/
@@ -152,4 +123,34 @@
   --progress-fg: var(--ctp-sky);
   --progress-bg: var(--ctp-surface0);
   --tabs-indent: 1rem;
+}
+
+.Tab {
+  background: transparent !important;
+  padding: 1px 0;
+  height: 32px;
+}
+
+.Tab .lvl-wrapper {
+  margin: 0 0.5rem;
+  border-radius: 0.25rem;
+  min-width: 0px;
+  border: solid transparent;
+  border-width: 0 1px;
+}
+
+.Tab:hover .fav {
+  opacity: 1;
+}
+
+.Tab:hover .lvl-wrapper {
+  background: var(--tabs-bg-hover);
+}
+.Tab[data-active] .lvl-wrapper {
+  background: var(--tabs-bg-active);
+  border-color: var(--ctp-overlay0);
+}
+
+.Tab .ctx {
+  right: -0.5rem;
 }
