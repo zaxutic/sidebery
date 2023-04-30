@@ -154,7 +154,7 @@
 }
 .Tab[data-active] .lvl-wrapper {
   background: var(--tabs-bg-active);
-  border-color: var(--ctp-overlay0);
+  border-color: var(--ctp-lavender);
 }
 
 .Tab .ctx {
