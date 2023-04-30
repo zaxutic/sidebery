@@ -68,8 +68,9 @@
   --tabs-bg-active: var(--ctp-base);
   --tabs-activated-bg: var(--ctp-mantle);
   --tabs-activated-fg: var(--ctp-text);
-  --tabs-selected-bg: var(--ctp-blue);
-  --tabs-selected-fg: var(--ctp-crust);
+  --tabs-selected-bg: var(--ctp-mantle);
+  --tabs-selected-active-bg: var(--ctp-surface0);
+  --tabs-selected-fg: var(--ctp-blue);
   --tabs-loading-fg: var(--ctp-blue);
   --tabs-update-badge-bg: var(--ctp-blue);
   --tabs-lvl-indicator-bg: var(--ctp-surface0);
@@ -155,6 +156,12 @@
 .Tab[data-active] .lvl-wrapper {
   background: var(--tabs-bg-active);
   border-color: var(--ctp-lavender);
+}
+.Tab[data-selected] .lvl-wrapper {
+  background: var(--tabs-selected-bg);
+}
+.Tab[data-active][data-selected] .lvl-wrapper {
+  background: var(--tabs-selected-active-bg);
 }
 
 .Tab .ctx {
