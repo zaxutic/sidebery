@@ -80,7 +80,7 @@
 #root[data-style="auto"] {
   --nav-btn-fg: var(--ctp-text);
   --nav-btn-bg-focus: var(--ctp-overlay0);
-  --nav-btn-activated-bg: var(--ctp-mantle);
+  --nav-btn-activated-bg: var(--ctp-base);
   /*(shadow not styled yet)*/
   --nav-btn-update-badge-bg: var(--ctp-blue);
 }
