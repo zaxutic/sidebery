@@ -124,12 +124,12 @@
   --progress-fg: var(--ctp-sky);
   --progress-bg: var(--ctp-surface0);
   --tabs-indent: 1rem;
+  --tabs-height: 32px;
 }
 
 .Tab {
   background: transparent !important;
   padding: 1px 0;
-  height: 32px;
 }
 
 .Tab .lvl-wrapper {
